@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+nav {
+  background-color: #101010;
+  padding: 20px 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.623);
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  /* background-color: aqua; */
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li.active {
+  color: white;
+}
+
+nav ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.623);
+  border: 1px solid rgba(255, 255, 255, 0.623);
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+/* hero section */
+
+.hero-section {
+  height: 500px;
+  background-image: url(https://youthful-mestorf-dbf4c2.netlify.app/assets/images/bg_header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.hero-section a {
+  color: white;
+  text-decoration: none;
+}
+
+button.bg-orange {
+  background-color: #ff9b22;
+  border: 0;
+}
+
+.second-section {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e0e0e0;
+  padding: 100px 0;
+}
+.container div {
+  text-align: center;
+  width: 20%;
+}
+
+.fa-5 {
+  font-size: 54px;
+}

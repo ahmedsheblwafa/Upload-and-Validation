@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css" />
+  </head>
+  <body>
+    <form id="myForm" action="myfirst.html">
+      <fieldset>
+        <legend>main info</legend>
+        <input type="text" placeholder="firstName" id="firstName" />
+        <span></span> <br />
+        <br />
+        <input type="text" placeholder="lastName" id="lastName" />
+        <span id="test"></span>
+        <br />
+        <br />
+        <input id="userAge" type="number" placeholder="age" name="" /> <br />
+        <span></span>
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>other data</legend>
+
+        <!-- ****gender**** -->
+        <div class="gender">
+          <p id="gender">gender</p>
+          <label for="male">male</label>
+          <input name="gender" class="gender" id="male" type="radio" />
+          <label for="female">female</label>
+          <input name="gender" class="gender" id="female" type="radio" />
+          <span></span>
+        </div>
+
+        <!-- ****interest**** -->
+        <div class="interests">
+          <p id="interests">what are your interests ?</p>
+          <label for="football">football</label>
+          <input id="football" class="interest" type="checkbox" />
+          <label for="tennis">tennis</label>
+          <input id="tennis" class="interest" type="checkbox" />
+          <label for="basketball">basketball</label>
+          <input id="basketball" class="interest" type="checkbox" />
+          <span></span>
+        </div>
+
+        <!-- ****buttons**** -->
+      </fieldset>
+      <div class="buttons">
+        <input type="reset" />
+        <input type="submit" />
+        <input type="button" id="addButton" value="add" />
+      </div>
+    </form>
+
+    <table id="myTable">
+      <tr>
+        <th>full name</th>
+        <th>age</th>
+      </tr>
+    </table>
+    <script src="main.js"></script>
+  </body>
+</html>
